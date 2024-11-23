@@ -35,16 +35,18 @@ jobs:
         emailAccount: ${{secrets.emailAccount}}
         # 接收优惠信息的邮箱的授权码
         emailPassword: ${{secrets.emailPassword}}
+        # WxPusher极简推送模式的spt 为空代表不进行Wx推送
+        spt: ${{secrets.spt}}
       run: java -jar zdm.jar
+    #保存已推送和暂未推送的优惠信息
     - name: git add files
       run: |
-        git add pushed.txt
         git add unpushed.txt
         git add ./logs/
     - name: commit & push
       uses: actions-go/push@master
       with:
-        author-email: 'mengzaifeiyang1@qq.com'
-        author-name: 'SMZDM Push'
+        author-email: 'actions@github.com'
+        author-name: 'GitHub Actions'
         commit-message: 'update articles'
-        token: ${{ secrets.GIT_TOKEN }}
+        token: ${{secrets.GIT_TOKEN}}
