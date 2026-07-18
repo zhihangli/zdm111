@@ -1,1 +1,1 @@
-{"article_comment":"8","article_id":"178851019","article_mall":"京东","article_pic_url":"https://y.zdmimg.com/202607/19/6a5bb49838dbb6445.jpg_d200.jpg","article_price":"","article_rating":"19","article_title":"多米食客食品专营店有十豆","article_url":"https://www.smzdm.com/p/178851019/","pushed":false}
+{"article_comment":"8","article_id":"178851019","article_mall":"京东","article_pic_url":"https://y.zdmimg.com/202607/19/6a5bb49838dbb6445.jpg_d200.jpg","article_price":"","article_rating":"20","article_title":"多米食客食品专营店有十豆","article_url":"https://www.smzdm.com/p/178851019/","pushed":false}
